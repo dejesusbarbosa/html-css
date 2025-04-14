@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover >p {
+            display: block;
+            background-color: rgba(0, 0, 255, 0.589);
+            color: red;
+            width: 300px;
+        }
+       div.div{
+        display: inline-block;
+        background-color: lightgray;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+       }
+       div#d1 >p{
+        display: none;
+       }
+       div#d2 >p{
+        display: none;
+       }
+       div#d1:hover >p{
+        display: block;
+       }
+       div#d2:hover >p{
+        display: block;
+       }
+    </style>
+</head>
+<body>
+    <h1>Testando o hover</h1>
+    <p>Passe o mouse no quadrado abaixo</p>
+    <div>passe o mouse aqui
+        <p>TEXTO DE EXEMPLO</p>
+    </div>
+    <p>Fim do exemplo</p>
+    <div id="d1" class="div">história do Brasil
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repudiandae, beatae assumenda culpa repellat doloribus dignissimos a et quos laborum repellendus nostrum nihil fuga odit! Perferendis magni at quaerat rem?</p></div>
+    <div id="d2" class="div">história da Alemanha
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui temporibus, excepturi accusamus assumenda animi dolor in non autem nihil nam quaerat nulla ex voluptas reprehenderit, doloribus, consequatur vero! Quia.</p>  </div>
+    <div id="d3" class="div">história da Russia
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vitae corporis dicta exercitationem nesciunt cum! Nobis accusantium necessitatibus nihil, voluptas odit harum. Ipsum inventore possimus dicta corrupti, deleniti beatae error?</p>
+    </div>
+</body>
+</html>

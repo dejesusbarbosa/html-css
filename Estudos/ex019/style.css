@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+  Tudo que em html é id = siguinifica # css
+  Tudo que em html é class = siguinifica . em css
+*/
+
+body{
+    background-color: rgb(187, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    color: rgb(5, 112, 54);
+}
+h1#principal{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(5, 112, 54);
+}
+h2{
+    color: rgb(70, 167, 134);
+}
+.basico{
+    color: rgb(70, 167, 134);
+}
+.intermediario{
+    color: rgb(157, 167, 70);
+}
+.avançado{
+    color: rgb(167, 70, 70);
+}
+.destaque{
+    background-color: rgb(146, 111, 111);
+}

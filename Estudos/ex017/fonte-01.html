@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fontes em CSS</title>
+    <style>
+        body{
+             font-family: Arial, Helvetica, sans-serif;   
+        
+        /*
+        Medidas absolutas
+        cm, mm,  in, px, pt, pc (só usar a px, que é a que melhor se adapta ao ambiente)
+        
+        Medidas relativas
+        em, ex ren, vw, vh, % (só usar a em, melhor que se adapta tambem)
+        16px = 1em
+        use sempre o em, porque ele vai se adaptar melhor para diferentes dispositivos
+
+        */
+        font-size: 1em;
+        font-weight: bolder;
+        font-style: italic;
+        }
+        h1{
+            font: italic bolder 2em arial, helvetica, sans-serif;
+            /*shorthand
+            font-style -> font-weight -> font-size -> font-family
+             font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+            font-style: normal;
+            */
+        }
+        h2{
+            font: normal bold 1.8em arial, helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de fontes em CSS</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sed explicabo quas dolor minima voluptatum sint ducimus illum consectetur magnam! Fugiat aperiam aliquam ipsa sequi repellendus earum exercitationem, ab quisquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat necessitatibus, delectus quas qui laboriosam iure quis sit, sint harum odio, ab nam at eius perferendis recusandae? Voluptate quasi laudantium unde.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat nulla repellendus enim, voluptatum inventore earum repudiandae odio sed, modi non itaque eligendi, corrupti obcaecati vero dolorum id. Sit, in!</p>
+    <h2>Sub-título do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, consectetur quas nobis molestias, esse vitae a optio in voluptatum, harum fuga incidunt quo nemo! Illo eos eligendi ullam pariatur dolorem.</p>
+
+</body>
+</html>

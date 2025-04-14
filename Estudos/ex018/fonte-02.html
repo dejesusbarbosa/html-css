@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: Old London;
+            src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/Olondon_.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+           
+
+            /* 
+                  tipos de format()
+                  -opentype (otf)
+                  -truetype (ttf)
+                  -embedded-opentype
+                  -truetype-aat (apple advanced)
+                  -svg
+            
+            */
+        }
+        @font-face {
+            font-family: girl ;
+            src: url(fonts/Filxgirl.TTF) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Old London, Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: girl;
+            font-size: 2em;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis deleniti minima facere natus iusto, odit non aliquam dolorum nam fugiat sunt laboriosam, dignissimos labore aperiam? Explicabo quia unde harum!</p>
+    <h2>Sub-título</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum quis quo voluptate sit excepturi eum et sapiente, facilis impedit quaerat! Provident nihil expedita exercitationem dolorem quisquam laudantium necessitatibus reiciendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nesciunt quo quam architecto natus, non, quidem omnis rerum ad neque inventore molestias reprehenderit beatae. Tenetur minus ducimus quaerat nam odit!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus soluta quasi libero, debitis, quidem quibusdam consectetur animi iure fuga quia iusto adipisci nihil earum, illum accusamus. Velit, blanditiis molestiae?</p>
+</body>
+</html>
