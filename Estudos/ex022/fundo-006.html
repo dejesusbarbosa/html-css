@@ -6,12 +6,23 @@
     <title>Posicionamentos de imagens</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper001.jpg');
             background-position: center top;
-            background-repeat: repeat-y;
-            background-size: cover; /* podemos usar nesse valor de background-size os seguintes valores: 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper001.jpg') center top no-repeat fixed;
+            background-size: cover;
+            
+            
+            /* podemos usar nesse valor de background-size os seguintes valores: 
             
             auto= a imagem é aplicada em seu tamanho original
             
@@ -25,7 +36,7 @@
 
         main{
             background-color: white;
-            width: 450px;
+            max-width: 450px;
             padding: 20px;
             margin: auto;
             border: 1px solid black;
