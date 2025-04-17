@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            position: relative;
+            height: 94vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 250px;
+            width: 350px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50% ,-50%);
+
+            /*
+            coisas adicionais que podemos fazer com a propiedade 'position: absolute'
+
+            left = valor
+
+            top = valor
+            */
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
