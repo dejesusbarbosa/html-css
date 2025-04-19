@@ -10,6 +10,14 @@
     --cor-02:#FF4500; /* cores do header e do footer*/
     --cor-03:#FF6347; /*cor de destaque*/
     --cor-04:#1B1F27; /*cor de fundo do Main*/
+    --cor-05:#492015c5;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65vh;
 }
 
 body{
@@ -23,26 +31,26 @@ body{
 header{
     display: block;
     background-color: var(--cor-02);
-    padding: 4%;
+    padding: 2.8%;
     text-align: center;
 }
 
 header >h1{
-    font-size: 3em;
+    font-size: 2.5em;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.386);
 }
 
 header >p{
     padding-top: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
 }
 
 nav{
     background-color: var(--cor-02);
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.549);
-    padding-bottom: 3.5%;
+    text-shadow:  0 4px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: 2%;
 }
 
 nav >a{
@@ -61,7 +69,7 @@ main{
     padding-right: 8%;
 }
 
- h1, h2{
+ main h1, h2{
     padding-top: 4%;
     padding-bottom: 4%;
     color: var(--cor-03);
@@ -69,6 +77,8 @@ main{
 }
 
 aside.destaque{
-    background-color: var(--cor-04);
+    padding: 10px;
+    background-color: var(--cor-05);
+    border-radius: 8px;
 }
 
