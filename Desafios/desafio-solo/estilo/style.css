@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor-01:#141D28; /*cor de fundo*/
+    --cor-02:#FF4500; /* cores do header e do footer*/
+    --cor-03:#FF6347; /*cor de destaque*/
+    --cor-04:#1B1F27; /*cor de fundo do Main*/
+}
+
+body{
+    margin: auto;
+    background-color: var(--cor-01);
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: block;
+    background-color: var(--cor-02);
+    padding: 4%;
+    text-align: center;
+}
+
+header >h1{
+    font-size: 3em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.386);
+}
+
+header >p{
+    padding-top: 0.5em;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    background-color: var(--cor-02);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.549);
+    padding-bottom: 3.5%;
+}
+
+nav >a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2.6%;
+}
+
+nav >a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ h1, h2{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: var(--cor-03);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.422);
+}
+
+aside.destaque{
+    background-color: var(--cor-04);
+}
+
