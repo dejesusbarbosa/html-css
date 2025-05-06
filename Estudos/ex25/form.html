@@ -13,12 +13,14 @@
 <body>
     <h1>Meu primeiro formulário!</h1>
     <form action="cadastro.php" method="post" autocomplete="off"> 
-        <!--Usar Get quando for usar dados trranquilos, mas usar o post para esconder use o Post-->
+        <!--Usar Get quando for usar dados tranquilos, mas usar o post para esconder. use o Post-->
         
         <p> <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome"></p>
+                <input type="text" name="nome" id="nome" required>
+        </p>
         <p> <label for="idade">Idade:</label> 
-                <input type="text" name="Idade" id="idade"></p>
+                <input type="text" name="Idade" id="idade" required>
+        </p>
         <p>
             <input type="submit" value="Enviar seus dados">
         <p>
