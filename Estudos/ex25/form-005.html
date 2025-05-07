@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Exenplo de Formulário
+    </h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>
+                Sexo
+            </legend>
+            <input type="radio" name="Sexo" id="sexom" value="Masculino"> <label for="sexom">Masculino</label> <br>
+            <input type="radio" name="Sexo" id="sexof" value="Feminino"> <label for="sexof">Feminino</label> <br>
+            <!--Todo botão de Radio tem q ter o mesmo name-->
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Esportes Favoritos!
+            </legend>
+            
+            <input type="checkbox" name="esp.fut" id="esp.fut" checked><label for="esp.fut">Futebol</label> <br>
+            <input type="checkbox" name="esp.basq" id="esp.basq"> <label for="esp.basq">Basquete</label> <br>
+            <input type="checkbox" name="esp.beis" id="esp.beis">
+            <label for="esp.beis">Baseball</label> <br>
+            <input type="checkbox" name="esp.salt" id="esp.salt">      <label for="esp.salt">Salto Olímpico</label> <br>
+            <input type="checkbox" name="esp.fisi" id="esp.fisi"> <label for="esp.fisi">Fisículturismo </label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Tudo">
+        </p>
+    </form>
+</body>
+</html>
