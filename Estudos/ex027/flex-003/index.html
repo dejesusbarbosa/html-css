@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fexible box</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.conteiner {
+            height: 150px;
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        div.filho {
+            background-color: bisque;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            border-radius: 6px;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Isso é um teste
+    </h1>
+    <div class="conteiner">
+        <div class="filho">Exemplo de bloco A</div>
+        <div class="filho">Exemplo de bloco B</div>
+        <div class="filho">Exemplo de bloco C</div>
+        <div class="filho">Exemplo de bloco D</div>
+        <div class="filho">Exemplo de bloco E</div>
+        <div class="filho">Exemplo de bloco F</div>
+    </div>
+</body>
+</html>
