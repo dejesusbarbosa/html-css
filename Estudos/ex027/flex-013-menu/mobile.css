@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav {
+    flex-flow: column nowrap;
+}
+
+header {
+    flex-flow: column nowrap;
+}
+
+nav a {
+    width: 90vw;
+}
+
+h1 {
+    flex-basis: 70px;
+}
+
+main {
+    margin: 20px;
+}
