@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Textos e fundo */
+    --cor-01: #0f0f17; /*Cor de fundo principal (body)*/
+    --cor-02: #0a0a10; /*Navbar e footer*/
+    --cor-03: #e0e0e0; /*Texto principal*/
+    --cor-04: #b0b0b0; /*Texto secundário (descrições)*/
+}
